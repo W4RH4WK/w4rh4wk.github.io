@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+body {
+    background: #fff url(../gfx/bg.png);
+}
+
+div.container {
+    margin-top: 20px;
+    max-width: 970px;
+}
+
+div.content {
+    background-color: #fdfdfd;
+    border: solid thin #d4d4d4;
+    margin-bottom: 20px;
+    padding: 3px 10px;
+}
+
+div.legal {
+    font-size: 11px;
+    overflow: hidden;
+    text-align: right;
+}
+
+div.logo {
+    text-align: center;
+}
+
+p.lead {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
