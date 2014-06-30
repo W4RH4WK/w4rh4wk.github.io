@@ -24,11 +24,10 @@
 <body>
     <div class="container">
         <div class="row">
-            <div class="col-md-9 col-md-push-3">
+            <div id="main" class="col-md-9 col-md-push-3">
 
-                <div class="content">
-                    <h1>About Me</h1>
-
+                <section>
+                    <header>About Me</header>
                     <p>
                         My name is Alex "W4RH4WK" Hirsch and I am a Computer
                         Science student at University of Innsbruck. I graduated
@@ -37,12 +36,11 @@
                         way around computer related stuff as well as electronic
                         circuitry.
                     </p>
-
                     <p>Contact: ax [DoT] warhawk [AT] gmail [DoT] com</p>
-                </div>
+                </section>
 
-                <div class="content">
-                    <h1>Featured Projects</h1>
+                <section>
+                    <header>Featured Projects</header>
                     <table class="table">
                         <tr>
                             <td>
@@ -129,10 +127,10 @@
                             </td>
                         </tr>
                     </table>
-                </div>
+                </section>
 
-                <div class="content">
-                    <h1>Miscellaneous Stuff</h1>
+                <section>
+                    <header>Miscellaneous Stuff</header>
                     <table class="table">
                         <tr>
                             <td>
@@ -194,13 +192,15 @@
                             </td>
                         </tr>
                     </table>
-                </div>
+                </section>
 
-                <div class="content legal"><a href="legal.txt">Legal Notice</a></div>
+                <section class="legal">
+                    <a href="legal.txt">Legal Notice</a>
+                </section>
 
             </div>
 
-            <div class="col-md-3 col-md-pull-9 logo">
+            <div id="logo" class="col-md-3 col-md-pull-9">
                 <img src="gfx/logo.png" alt="logo" />
             </div>
         </div>

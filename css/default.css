@@ -4,30 +4,35 @@ body {
     background: #fff url(../gfx/bg.png);
 }
 
-div.container {
+.container {
     margin-top: 20px;
     max-width: 970px;
 }
 
-div.content {
+#main > section {
     background-color: #fdfdfd;
     border: solid thin #d4d4d4;
     margin-bottom: 20px;
-    padding: 3px 10px;
+    padding: 10px;
 }
 
-div.legal {
+#main > .legal {
     font-size: 11px;
     overflow: hidden;
     text-align: right;
 }
 
-div.logo {
-    text-align: center;
+#main header {
+    font-size: 32px;
+    margin-bottom: 10px;
 }
 
-p.lead {
+#main p.lead {
     font-size: 16px;
     font-weight: bold;
     margin-bottom: 0px;
+}
+
+#logo {
+    text-align: center;
 }
