@@ -32,5 +32,6 @@ body {
 }
 
 .logo {
-    text-align: center;
+    display: block;
+    margin: auto;
 }
