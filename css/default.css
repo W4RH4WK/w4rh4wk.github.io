@@ -9,30 +9,28 @@ body {
     max-width: 970px;
 }
 
-#main > section {
+.box {
     background-color: #fdfdfd;
     border: solid thin #d4d4d4;
     margin-bottom: 20px;
     padding: 10px;
 }
 
-#main > .legal {
+.box header {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.box p {
+    text-align: justify;
+}
+
+.legal {
     font-size: 11px;
     overflow: hidden;
     text-align: right;
 }
 
-#main header {
-    font-size: 32px;
-    margin-bottom: 10px;
-}
-
-#main p.lead {
-    font-size: 16px;
-    font-weight: bold;
-    margin-bottom: 0px;
-}
-
-#logo {
+.logo {
     text-align: center;
 }
