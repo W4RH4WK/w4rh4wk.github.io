@@ -10,7 +10,8 @@ body {
 }
 
 .box {
-    background-color: #111;
+    background-color: rgb(17, 17, 17);
+    background-color: rgba(17, 17, 17, 0.5);
     border: solid thin #222;
     margin-bottom: 20px;
     padding: 10px;
