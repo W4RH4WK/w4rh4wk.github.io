@@ -3,6 +3,10 @@ Langgasse 8
 A-6065 Thaur
 w4rh4wk [AT] bluephoenix [DoT] at
 
+Using:
+  Subtle Patterns      - http://subtlepatterns.com/
+  Bootstrap            - http://getbootstrap.com/
+
 1. Content
 
 The author reserves the right not to be responsible for the topicality,
